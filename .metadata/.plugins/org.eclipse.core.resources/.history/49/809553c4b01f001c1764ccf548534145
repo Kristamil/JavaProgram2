@@ -1,0 +1,30 @@
+package pos;
+
+public class Postive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=-79;
+		if(num>0&&num%2==0)
+		{
+			System.out.println("Even Positive");
+		}
+		else if(num<0&&num%2==0)
+		{
+			System.out.println("Even Negative");
+		}
+		else if(num==0)
+		{
+			System.out.println("Zero");
+		}
+		else if(num>0&&num%2!=0)
+		{
+			System.out.println("Odd Positive");
+		}
+		else
+		{
+			System.out.println("Odd Negative");
+		}
+	}
+
+}

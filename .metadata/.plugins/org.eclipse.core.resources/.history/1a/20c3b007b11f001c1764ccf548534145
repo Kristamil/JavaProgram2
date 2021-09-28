@@ -1,0 +1,23 @@
+package prim;
+
+public class Prime {
+ public static void main(String arg[])
+ {
+	 int n=23,count=0;
+	 for(int i=1;i<=n;i++)
+	 {
+		 if(n%1==0)
+		 {
+			 count=count+1;
+		 }
+	 }
+	 if(count==2)
+	 {
+		 System.out.println("The Number is PrimeNo");
+	 }
+	 else
+	 {
+		 System.out.println("Tne Number is Not a PrimeNo");
+	 }
+ }
+}

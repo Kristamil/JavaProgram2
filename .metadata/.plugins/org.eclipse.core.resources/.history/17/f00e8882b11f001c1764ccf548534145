@@ -1,0 +1,16 @@
+package summ;
+
+public class Sum {
+public static void main(String arg[])
+{
+	Scanner readme=new Scanner(System.in);
+	System.out.println("Enter the Digits:" );
+	int i;
+	
+	System.out.println("Sum of Digits:");
+	for(i=0;i<100;i=i+1)
+	{
+		System.out.println(i);
+	}
+}
+}
